@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abdelrahman.accountpromax.ui.home.HomeFragment"
+        android:label="@string/home" />
+
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="com.abdelrahman.accountpromax.ui.projects.ProjectsFragment"
+        android:label="@string/projects" />
+
+    <fragment
+        android:id="@+id/chartsFragment"
+        android:name="com.abdelrahman.accountpromax.ui.charts.ChartsFragment"
+        android:label="@string/charts" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.abdelrahman.accountpromax.ui.settings.SettingsFragment"
+        android:label="@string/settings" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.abdelrahman.accountpromax.ui.about.AboutFragment"
+        android:label="@string/about" />
+
+    <fragment
+        android:id="@+id/clientDetailsFragment"
+        android:name="com.abdelrahman.accountpromax.ui.client.ClientDetailsFragment"
+        android:label="تفاصيل العميل" />
+</navigation>

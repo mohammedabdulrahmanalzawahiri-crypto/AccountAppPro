@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="كلمة المرور"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/securityQuestionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="سؤال الأمان" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/lockSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قفل التطبيق عند الفتح" />
+
+        <AutoCompleteTextView
+            android:id="@+id/themePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="الثيم (10 خيارات)" />
+
+        <AutoCompleteTextView
+            android:id="@+id/fontPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="الخط (4 خيارات)" />
+
+        <AutoCompleteTextView
+            android:id="@+id/fontSizePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="حجم الخط (6 خيارات)" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveSettingsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ الإعدادات" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exportJsonBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تصدير JSON" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/importJsonBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="استيراد JSON" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/importExcelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="استيراد Excel" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exportExcelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تصدير Excel" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exportWordBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تصدير Word" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shareWhatsappBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشاركة عبر WhatsApp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shareTelegramBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشاركة عبر Telegram" />
+    </LinearLayout>
+</ScrollView>
